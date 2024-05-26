@@ -1,30 +1,39 @@
-# Rentify
-Rentify is a web application designed to connect property owners with potential tenants. This project aims to streamline the rental process for both sellers and buyers, providing a user-friendly platform to list, search, and manage rental properties.
+Project Title - Renting Application
 
-Challenge Overview
-Duration: 6 hours
-Parts: Basic Application (Mandatory), Add-On Features (Advanced), Bonus Section (Optional)
+Rentify is a web application designed to simplify the process of renting properties for both landlords (sellers) and tenants (buyers). With features tailored to meet the needs of users on both sides of the rental market, Rentify aims to streamline property listing, viewing, and application processes.
 
-Tech Stack
-Frontend: React, Angular, Vue.js, HTML, CSS
-Backend: .NET, Java, Node.js, Spring, Go, Django, Flask
-Part I: Basic Application (Mandatory)
-User Registration
+Technologies Used
+Node js - Backend , React js - Frontend
+Database: MONGO DB
+Authentication: JWT TOKEN
 
-Fields: First name, Last name, Email, Phone number
-Roles: Seller or Buyer
-Seller Flow
+Features
+-User registration and authentication by email
+-Property listing and management for sellers
+-Add property
+-Update property
+-Delete property
+-Find interested buyers
+-likes, dislikes
+-Property browsing and interaction for buyers
+-Interested items dashboard
+-likes, dislikes
+-Pagination and form validation for enhanced user experience
+-User feedback through like and dislike feature
+-Run the server using npm start.
 
-Post properties with details (e.g., place, area, bedrooms, bathrooms, nearby amenities)
-View, update, and delete listed properties
-Buyer Flow
+Frontend Setup:
+Clone the repository.
+Navigate to the frontend directory.
+Install dependencies using npm install.
+Update backend API endpoint in configuration files.
+Run the frontend using npm start.
 
-View all rental properties
-Express interest in properties
-Apply filters based on property details
-Part II: Add-On Features (Advanced)
-Implement pagination and form validation
-Require login to view seller details
-Redirect unauthorized users to the login screen
-Add a Like button with a live count
-Email contact details to interested buyers and sellers
+
+Backend Setup:
+Clone the repository.
+Navigate to the backend directory.
+Install dependencies using npm install.
+Set up the database according to schema provided.
+Configure environment variables for database connection and authentication.
+Run the server using npm start.
